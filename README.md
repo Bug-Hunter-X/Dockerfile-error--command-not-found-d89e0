@@ -1,0 +1,1 @@
+This repository contains a Dockerfile with a common error and its solution. The original Dockerfile fails to run because it doesn't copy the application code into the image and the CMD instruction is missing the path to the application. The solution demonstrates how to copy the required files and execute the application correctly.
